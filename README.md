@@ -11,6 +11,7 @@ Um aplicativo simples de controle financeiro pessoal construído com **React** e
   - Saldo Total
 - Exibição das transações com ícones e diferenciação visual (verde para entrada, vermelho para saída).
 - Responsivo para desktop e dispositivos móveis.
+-  Persistência com localStorage
 
 ## 📸 Preview
 
@@ -28,36 +29,36 @@ Um aplicativo simples de controle financeiro pessoal construído com **React** e
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/gerenciador-financas.git
+   git clone https://github.com/SamuelBessa/Gerenciador-de-Financas.git
    cd gerenciador-financas
 
 2. **Instale as dependências:**
-   
+   ```bash
    bun install
    
 4. **Rode o projeto:**
-   
+   ```bash
    bun run dev
 
 ## 📂 Estrutura de Componentes 
 
-  src/
-├── componentes/
-│   ├── Formulario.jsx
-│   ├── Resumo.jsx
-│   ├── Description.jsx
-│   ├── IconTipo.jsx
-├── App.jsx
+  ```bash
+    src/
+  ├── componentes/
+  │   ├── Formulario.jsx
+  │   ├── Resumo.jsx
+  │   ├── Description.jsx
+  │   ├── IconTipo.jsx
+  ├── App.jsx
+```
 
 ## 🧠 Melhorias Futuras
 
- . Filtro por data ou categoria
+ - Filtro por data ou categoria
 
- . Persistência com localStorage ou banco de dados
+ - Modo escuro
 
- . Modo escuro
-
- . Exportação de relatório (PDF/Excel)  
+ - Exportação de relatório (PDF/Excel)  
 
 ## 🧑‍💻 Autor
 
