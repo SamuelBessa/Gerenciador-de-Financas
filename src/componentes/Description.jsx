@@ -2,8 +2,6 @@ import { CircleArrowDown, CircleArrowUp } from "lucide-react";
 
 function Description({ income }) {
 
-    console.log(income)
-
     function IconTipo({ entrada }) {
         return entrada ? (
             <div className="flex justify-center text-green-700">

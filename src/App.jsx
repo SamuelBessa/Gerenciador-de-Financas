@@ -1,6 +1,6 @@
 import Description from "./componentes/Description"
 import { v4 } from "uuid";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Resumo from "./componentes/Resumo";
 import Formulario from "./componentes/Formulario";
 
@@ -10,7 +10,9 @@ function App() {
   const [valor, setValor] = useState("");
   const [entrada, setEntrada] = useState(true);
 
-  const [income, setIncome] = useState([]);
+  const [income, setIncome] = useState(
+    JSON.parse(localStorage.getItem("income")) || []
+  );
 
   function onAddIncome(e) {
     e.preventDefault();
@@ -30,6 +32,10 @@ function App() {
     setValor("");
     setEntrada(true);
   }
+
+  useEffect(() => {
+    localStorage.setItem("income", JSON.stringify(income));
+  }, [income]);
 
   return (
     <div className="bg-slate-600 min-h-screen w-full">
