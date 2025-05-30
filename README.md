@@ -30,7 +30,7 @@ Um aplicativo simples de controle financeiro pessoal construído com **React** e
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/SamuelBessa/Gerenciador-de-Financas.git
-   cd gerenciador-financas
+   cd gerenciador-de-financas
 
 2. **Instale as dependências:**
    ```bash
