@@ -48,7 +48,6 @@ Um aplicativo simples de controle financeiro pessoal construído com **React** e
   │   ├── Formulario.jsx
   │   ├── Resumo.jsx
   │   ├── Description.jsx
-  │   ├── IconTipo.jsx
   ├── App.jsx
 ```
 
